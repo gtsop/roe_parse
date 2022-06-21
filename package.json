@@ -4,7 +4,7 @@
   "description": "Parse html of popular bug bounty websites to extract pen-testing rules of engagement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "scripts/test.sh"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gtsop/roe_parse/issues"
   },
-  "homepage": "https://github.com/gtsop/roe_parse#readme"
+  "homepage": "https://github.com/gtsop/roe_parse#readme",
+  "devDependencies": {
+    "bats": "^1.7.0"
+  }
 }
