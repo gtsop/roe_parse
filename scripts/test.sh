@@ -1,1 +1,1 @@
-$(npm bin)/bats ./tests/*.bats
+./test/bats/bin/bats ./test/*.bats

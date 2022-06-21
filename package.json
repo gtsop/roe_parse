@@ -16,7 +16,8 @@
     "url": "https://github.com/gtsop/roe_parse/issues"
   },
   "homepage": "https://github.com/gtsop/roe_parse#readme",
-  "devDependencies": {
-    "bats": "^1.7.0"
-  }
+  "dependencies": {
+    "node-html-parser": "^5.3.3"
+  },
+  "type": "module"
 }
